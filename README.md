@@ -54,11 +54,5 @@ The dashboard enables users to:
 - **Tableau** – Interactive data visualization
 
 
----
-
-
-```markdown
-
-
 
 
