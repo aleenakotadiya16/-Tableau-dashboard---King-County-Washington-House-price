@@ -1,29 +1,64 @@
 ![image](https://github.com/user-attachments/assets/fbccceb3-85ab-49cd-af27-2e926300f6a6)
-This Dashboard shows us the House Sales of King County, Washington
+# 🏡 House Sales Dashboard – King County, Washington
 
-CHART 1: LINE CHART
-This chart shows the daily average house sales prices for a particular month. This month can be selected by the filter provided in the filters column. 
+## 📌 Project Description
 
-CHART 2: MAP
-The map shows the areas where the houses reside. This is based on average house price. Darker color indicate higher average where as lighter color indicate lower prices. This map again displays data month wise.This month can be selected by the filter provided in the filters column.
+This project presents an interactive Tableau dashboard analyzing **house sales in King County, Washington**. It explores sales trends, price distributions, and geographic patterns from **May 2014 to May 2015**, using filters for month, year built, square footage, and more. The dashboard helps identify pricing trends, high-value areas, and the impact of features like **view, condition, bedrooms, and bathrooms** on house prices.
 
-CHART 3: Distribution of House Prices
-The histogram shows the distribution of house prices for each month as well as each day. You can even adjust to find the distribution of house price based on year bulit, sqft of living, sqft of loft. These filters are present on the left hand side to toggle with.
+---
 
-CHART 4:VIEWS VS CONDITION
-This tables shows the avg price for a house based on the view and condition. You can even adjust to find the average house price based on year bulit, sqft of living, sqft of loft
+## 📊 Dashboard Overview
 
-CHART 5 : DISTRIBUTION ON BEDROOMS
-The histogram shows the distribution of BEDROOMS for each month as well as each day. You can even adjust to find the distribution of house price based on year bulit, sqft of living, sqft of loft.
+### 🔹 CHART 1: Daily Average House Prices (Line Chart)
+Displays **daily average house sale prices** for a selected month. Use the filter to choose the month and analyze trends.
 
-CHART 6: DISTRIBUTION OF BATHROOMS
-The histogram shows the distribution of BATHROOMS for each month as well as each day. You can even adjust to find the distribution of house price based on year bulit, sqft of living, sqft of loft.
+### 🔹 CHART 2: Geospatial Price Mapping (Map View)
+A map showing **average house prices by region** using color gradients. Darker shades indicate higher prices.
 
-KEY INSIGHTS:
-Highest Average House price was in May 2015. This was because the price of one house sold in May was very huge hence increase the mean due to outlier. Beside the major outlier we have 2 other peaks.
-The month with most highest house price is Novemeber. It is in the zipcode : 98004 Bellevue, Washington
-When you look at the distribution of house price you see a right skew indicating few house with high house prices. The average bedroom in this are is 2 and average bathrooms is 2.
- ![image](https://github.com/user-attachments/assets/b5b57708-a41f-40a8-8d0a-2547b2fc92a9)
+### 🔹 CHART 3: Price Distribution (Histogram)
+Visualizes **distribution of house prices** with filters for date, year built, living area, and lot size.
 
-IF you were to buy a house in this region which has no view and is poor-worn out the average house price is 352,950.  which is slightly above the median house price with 99 house having the price 281K.
+### 🔹 CHART 4: Average Price by View & Condition (Matrix Table)
+Displays **average price** based on **view** and **condition**, with filters for deeper breakdown.
+
+### 🔹 CHART 5: Bedrooms Distribution (Histogram)
+Shows the count of houses by **number of bedrooms**, filterable by various attributes.
+
+### 🔹 CHART 6: Bathrooms Distribution (Histogram)
+Similar to Chart 5, but shows **bathroom distribution**.
+
+---
+
+## 🔍 Key Insights
+
+- 📈 **May 2015** saw the highest average house price due to an **extreme outlier**.**November** turned out to be the month with highest average house prices.Based on November
+- 🏘️ The **most expensive region** was **Bellevue (Zipcode: 98004)**.
+- 📉 The price distribution shows a **right-skew**, with a few very expensive properties.
+- 🛏️ Most homes have **2 bedrooms and 2 bathrooms**.
+- 👁️ Houses with **no view and poor condition** cost around **$352,950** on average, slightly above the median price.
+- 📍 The map reveals **spatial trends**, highlighting premium zones near water and urban centers.
+
+---
+
+## 💡 Purpose
+
+The dashboard enables users to:
+- Understand house price dynamics over time
+- Identify price-driving features like view, condition, and size
+- Explore regional trends with geospatial insights
+
+---
+
+## 🛠 Tools Used
+
+- **Tableau** – Interactive data visualization
+
+
+---
+
+
+```markdown
+
+
+
 
